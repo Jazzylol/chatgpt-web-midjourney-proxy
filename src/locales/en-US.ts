@@ -169,7 +169,7 @@ export default {
 
   "findVersion": "Discover updated version",
   "yesLastVersion": "Already on the latest version",
-  "infoStar": 'This project is open source on <a class="text-blue-600 dark:text-blue-500" href="https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target="_blank">GitHub</a>, free, and based on the MIT license with no form of payment! </p><p>If you find this project helpful, please give it a Star on GitHub, thank you!',
+  "infoStar": '',
   "setBtSaveChat": "Save chat only",
   "setBtSaveSys": "Save to system",
   "wsrvClose": "Close wsrv",
@@ -214,7 +214,7 @@ export default {
   needImg: 'Please upload a reference image for it to take effect!',
   seed: 'Seed number 1~2147483647',
   klingInfo: 'Description: <li>1. High Quality is 3.5 times the price</li> <li>2. 10s is 2 times the price</li> <li>3. The last frame must have a reference image to take effect</li>'
-  
+
   ,"camera_type": "Lens",
   "cnull": "Smart Matching",
   "down_back": "Move Down and Zoom Out",

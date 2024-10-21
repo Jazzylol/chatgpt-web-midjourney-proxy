@@ -82,7 +82,7 @@ watch(
     :width="260"
     :show-trigger="isMobile ? false : 'arrow-circle'"
     collapse-mode="transform"
-    
+
     bordered
     :style="getMobileClass"
     @update-collapsed="handleUpdateCollapsed"
@@ -108,7 +108,7 @@ watch(
           </NButton>
         </div>
       </main>
-      <Footer />
+<!--      <Footer />-->
     </div>
   </NLayoutSider>
   <template v-if="isMobile">
