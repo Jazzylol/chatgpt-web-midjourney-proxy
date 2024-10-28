@@ -1,6 +1,8 @@
 # build front-end
 FROM node:lts-alpine AS frontend
 
+RUN npm config set registry https://registry.npm.taobao.org
+
 RUN npm install pnpm -g
 
 WORKDIR /app
@@ -17,7 +19,6 @@ RUN pnpm run build
 
 # build backend
 FROM node:lts-alpine as backend
-RUN npm config set registry https://registry.npm.taobao.org
 
 RUN npm install pnpm -g
 
