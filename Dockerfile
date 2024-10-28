@@ -18,9 +18,6 @@ RUN pnpm run build
 # build backend
 FROM node:lts-alpine as backend
 
-RUN npm install pnpm -g --registry=https://registry.npmmirror.com
-
-
 RUN npm install pnpm -g
 
 WORKDIR /app
